@@ -63,11 +63,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="col-lg-10 center-div">
+                        <div class="col-lg-12 center-div">
                             <div class="fh5co-intro animate-box text-center">
                                 <h2>Комплект датчик та насадка на кран</h2>
-                                <p>SafeHouse - система, яка дає можливість не лише спостерігати, а й діяти! Газ буде
-                                    автоматично перекрито, ще до того, як витік завдасть вам шкоди!</p>
+                                <p>SafeHouse - система, яка дає можливість не лише спостерігати, а й діяти! Газ буде автоматично перекрито, ще до того, як витік завдасть вам шкоди!</p>
                             </div>
                         </div>
 
@@ -117,8 +116,8 @@
                                                             <!-- <i class="icon-circle-check"></i> -->
 														</span>
                                 <h3>Повністю автономний</h3>
-                                <!-- <p>Щоб встановити наш продукт вам не потрібно втручатися в роботу комунікаційної системи чи узгоджувати встановлення
-                                        з ЖЕКом. Вам досить витратити лише декілька хвилин на легке встановлення нашої системи.</p> -->
+                                <p>Щоб встановити наш продукт вам не потрібно втручатися в роботу комунікаційної системи чи узгоджувати встановлення
+                                        з ЖЕКом. Вам досить витратити лише декілька хвилин на легке встановлення нашої системи.</p>
                             </div>
                         </div>
 
@@ -132,10 +131,10 @@
                                                             <!-- <i class="icon-globe"></i> -->
 															</span>
                                 <h3>Автоматичне перекривання</h3>
-                                <img class="question-icon" src="images/icons/question_icon.png" alt="">
-                                <!-- <p>Наша система надає вам безпечний доступ до управління домом та відстежування ситуації в режимі реального часу. А
+                                <!-- <img class="question-icon" src="images/icons/question_icon.png" alt=""> -->
+                                <p>Наша система надає вам безпечний доступ до управління домом та відстежування ситуації в режимі реального часу. А
                                         якщо у вас вже є якась система розумного дому - вам не потрібно переплачувати, адже ми забезпечимо
-                                        інтеграцію.</p> -->
+                                        інтеграцію.</p>
                             </div>
                         </div>
 
@@ -153,7 +152,7 @@
                     <!--									<span class="icon">-->
                     <!--													<i class="icon-globe"></i>-->
                     <!--											</span>-->
-                    <div class="col-sm-4">
+                    <div class="col-sm-12">
                         <button type="button" class="background-gradient" name="button">Купити 2 799 грн</button>
 
                     </div>
@@ -197,11 +196,20 @@
 <!-- Main -->
 <script src="js/main.js"></script>
 <style media="screen">
+@media screen and (max-width: 767px) {
+    #fh5co-aside {
+      height: 100vh;
+    }
+
     .render-img {
-        /* position: absolute; */
-        /* z-index: 100;
-        top: 24%;
-        left: 10%; */
+        width: 20em;
+        top: 35%;
+    }
+}
+    .render-img {
+        position: relative;
+        top: 35%;
+        width: 58%  ;
     }
 
     /* .icon-img {
@@ -233,7 +241,7 @@
         margin-left: 200px;
     } */
 
-    /* button {
+    button {
         height: 54px;
         border: none !important;
         background: #07c1ef;
@@ -245,7 +253,7 @@
         padding-right: 50px;
         margin: 0 auto;
         display: block;
-    } */
+    }
 
     /* .feature-center .icon {
         width: 90px;
